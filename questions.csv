@@ -1,0 +1,34 @@
+ExamTitle,Description,QuestionType,QuestionText,Options,CorrectAnswer,Score
+"Object-Oriented Programming (OOP)","Advanced concepts in OOP.","MCQ","Which of the following describes encapsulation?\n(A) Hiding the internal state...\n(B) A class inheriting...\n(C) Creating multiple methods...","A|B|C","A",10.0
+"Object-Oriented Programming (OOP)","Advanced concepts in OOP.","TF","In Java a class can implement multiple interfaces.\nPlease enter true or false","","true",10.0
+"Object-Oriented Programming (OOP)","Advanced concepts in OOP.","MCQ","Which keyword is used to call a parent class constructor in Java?\n(A) this\n(B) parent\n(C) super","A|B|C","C",10.0
+"Object-Oriented Programming (OOP)","Advanced concepts in OOP.","TF","Polymorphism allows a subclass to have a different implementation of a method.\nPlease enter true or false","","true",10.0
+"Object-Oriented Programming (OOP)","Advanced concepts in OOP.","MCQ","What is an abstract class?\n(A) A class that cannot be instantiated.\n(B) A class with no methods.\n(C) A class that cannot be inherited.","A|B|C","A",10.0
+"Object-Oriented Programming (OOP)","Advanced concepts in OOP.","TF","Method overloading and method overriding are exactly the same concept.\nPlease enter true or false","","false",10.0
+"Object-Oriented Programming (OOP)","Advanced concepts in OOP.","MCQ","Which of these access modifiers restricts access the most?\n(A) protected\n(B) private\n(C) public","A|B|C","B",10.0
+"Object-Oriented Programming (OOP)","Advanced concepts in OOP.","TF","In OOP an interface can contain concrete method implementations in Java 8 and above.\nPlease enter true or false","","true",10.0
+"Object-Oriented Programming (OOP)","Advanced concepts in OOP.","MCQ","Which principle states that objects of a superclass should be replaceable with objects of its subclasses?\n(A) Open-Closed Principle\n(B) Liskov Substitution Principle\n(C) Interface Segregation Principle","A|B|C","B",10.0
+"Object-Oriented Programming (OOP)","Advanced concepts in OOP.","TF","A final class in Java can be extended by other classes.\nPlease enter true or false","","false",10.0
+"Mathematics","Calculus, Algebra, and general math.","MCQ","What is the derivative of x^2?\n(A) 2x\n(B) x\n(C) 2","A|B|C","A",10.0
+"Mathematics","Calculus, Algebra, and general math.","TF","The square root of 169 is 13. Please enter true or false","","true",10.0
+"Mathematics","Calculus, Algebra, and general math.","MCQ","Solve for x: 3x - 9 = 0\n(A) 2\n(B) 3\n(C) 4\n(D) 5","2|3|4|5","B",10.0
+"Mathematics","Calculus, Algebra, and general math.","TF","Pi is a rational number.\nPlease enter true or false","","false",10.0
+"Mathematics","Calculus, Algebra, and general math.","MCQ","What is the integral of 2x dx?\n(A) x^2 + C\n(B) 2x^2 + C\n(C) x + C","A|B|C","A",10.0
+"Mathematics","Calculus, Algebra, and general math.","TF","The sum of the interior angles of a triangle is always 180 degrees.\nPlease enter true or false","","true",10.0
+"Mathematics","Calculus, Algebra, and general math.","MCQ","If a = 3 and b = 4 what is the length of the hypotenuse?\n(A) 5\n(B) 6\n(C) 7","A|B|C","A",10.0
+"Mathematics","Calculus, Algebra, and general math.","TF","The determinant of an identity matrix is always 0.\nPlease enter true or false","","false",10.0
+"Mathematics","Calculus, Algebra, and general math.","MCQ","What is the value of 5 factorial (5!)?\n(A) 60\n(B) 100\n(C) 120","A|B|C","C",10.0
+"Mathematics","Calculus, Algebra, and general math.","TF","A prime number has exactly two distinct positive divisors: 1 and itself.\nPlease enter true or false","","true",10.0
+"Logic","Syllogisms and deductive reasoning.","TF","If all men are mortal, and Socrates is a man, then Socrates is mortal.\nPlease enter true or false","","true",10.0
+"Logic","Syllogisms and deductive reasoning.","MCQ","Which logical connective represents 'AND'?\n(A) Conjunction\n(B) Disjunction\n(C) Implication","A|B|C","A",10.0
+"Logic","Syllogisms and deductive reasoning.","TF","The statement 'A and not A' can be true at the same time.\nPlease enter true or false","","false",10.0
+"Logic","Syllogisms and deductive reasoning.","MCQ","If P implies Q, and P is true, what can we deduce about Q?\n(A) Q is false\n(B) Q is true\n(C) Q is unknown","A|B|C","B",10.0
+"Logic","Syllogisms and deductive reasoning.","TF","Modus Tollens states that if P implies Q, and Q is false, then P must be false.\nPlease enter true or false","","true",10.0
+"Logic","Syllogisms and deductive reasoning.","MCQ","In Boolean algebra, what is the result of '1 OR 0'?\n(A) 0\n(B) 1\n(C) Null","A|B|C","B",10.0
+"Logic","Syllogisms and deductive reasoning.","TF","De Morgan's laws state that NOT (P AND Q) is equivalent to (NOT P) OR (NOT Q).\nPlease enter true or false","","true",10.0
+"Logic","Syllogisms and deductive reasoning.","MCQ","Which of the following represents a tautology?\n(A) P OR (NOT P)\n(B) P AND (NOT P)\n(C) P implies (NOT P)","A|B|C","A",10.0
+"Logic","Syllogisms and deductive reasoning.","TF","A valid deductive argument can have true premises and a false conclusion.\nPlease enter true or false","","false",10.0
+"Logic","Syllogisms and deductive reasoning.","MCQ","If 'Some A are B' is true, which of the following must also be true?\n(A) All A are B\n(B) Some B are A\n(C) No A are B","A|B|C","B",10.0
+"Test","just for test","MCQ","choose 1\n(A) AA\n(B) BB\n(C) CC\n(D) DD","AA|BB|CC|DD","A",50.0
+"Test","just for test","TF","ada","","true",50.0
+"ss","ss","","","","",0.0

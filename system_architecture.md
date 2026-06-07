@@ -28,7 +28,17 @@ When the graphical user interface (GUI) launches, you will see two main roles to
   - **Add Exam**: Create a new blank exam paper.
   - **Add Question**: Add new multiple-choice or true/false questions to an existing exam.
 
-## 1. Core Domain Models
+## 1. Directory Structure & File Locations
+
+The project is structured into clear layers, separating the core logic, user interfaces, and persistent data storage.
+
+- **`com/exam/`**: The core package directory containing all the primary Domain Models (`User`, `Student`, `Instructor`, `Question`, `Exam`), Services (`ExamService`), and Data Access Objects (`ExamCatalog`, `CsvExamDao`).
+- **`com/exam/ui/`**: A sub-package containing all the User Interface logic and Controllers. This separates the graphical view components (`MainMenu`, `ExamFrame`, `StudentMenu`, `InstructorMenu`) from the core backend logic to adhere to the MVC (Model-View-Controller) pattern.
+- **`questions.csv`**: The local database file for storing the question bank. The `CsvExamDao` reads and writes question definitions from this file.
+- **`results.csv`**: The local database file for storing exam results. The `CsvResultDao` appends final student scores and feedback into this file.
+- **`system_architecture.md`**: The current architectural documentation you are reading.
+
+## 2. Core Domain Models
 
 ### `User` Hierarchy (User Roles)
 * **`User` (Abstract Class)**: 
@@ -69,7 +79,7 @@ When the graphical user interface (GUI) launches, you will see two main roles to
   * **Purpose**: Encapsulates the final settlement information after a student completes an exam, including the name, exam title, final score, and feedback.
   * **Relationship**: Created by the `Exam` object in the same hierarchy, then handed over to the external layer for storage.
 
-## 2. Data & Service Layers
+## 3. Data & Service Layers
 
 ### Data Access Objects (DAO Pattern)
 * **`ExamDao` (Interface)**: 
@@ -96,7 +106,7 @@ When the graphical user interface (GUI) launches, you will see two main roles to
   * **Purpose**: Centralizes the complex logic of object creation. Instantiates specific question subclasses by evaluating strings.
   * **Relationship**: Responsible for **Creating** concrete `MultipleChoiceQuestion` or `TrueFalseQuestion` objects.
 
-## 3. User Interface Layer (View & Controller)
+## 4. User Interface Layer (View & Controller)
 
 * **`MainMenu` / `StudentMenu` / `InstructorMenu`**: 
   * **Purpose**: Constitutes the system's menus and workflow guidance modules, responsible for identity verification and dialog input for business workflows.
